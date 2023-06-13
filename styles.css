@@ -1,0 +1,48 @@
+
+
+.body-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: gainsboro;
+    height: 2000px;
+}
+
+
+h1{
+    padding-left: 400px;
+    padding-right: 450px;
+    background-color: white;
+}
+
+.card{
+height: 550px;
+width: 450px;
+object-fit: contain;
+margin-top: 75px;
+background-color: white;
+
+}
+
+.card-container{
+    height: 2000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    object-fit: contain;
+}
+
+
+img{
+    height: 400px;
+    width: 450px;
+    object-fit: cover;
+}
+
+.title-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-right: 10px;
+}
